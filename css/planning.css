@@ -1,0 +1,63 @@
+@charset 'UTF-8';
+
+/* overview */
+#mapeu{border: #bebebe 1px solid;margin-bottom: 50px;max-width: 900px;}
+
+/* schedule */
+table{font-family: 'Ubuntu', sans-serif;color: #666;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{padding: 0px;width: 10%;text-align: center;}
+.table>tbody>tr>th{background-color: #ccc;font-weight: 300;}
+.table-striped>tbody>tr:nth-of-type(odd){color: #fff;letter-spacing: 2px;}
+
+td.myparis{background-color: #2875a7;}
+td.mybrussel{background-color: #eebd0d;}
+td.mylondon{background-color: #dd523b;}
+td.myrome{background-color: #89ac3d;}
+td.myflorence{background-color: #aac14a;}
+td.myvenice{background-color: #c4c87b;}
+td.mybudapest{background-color: #33b2ce;}
+td.myvienna{background-color: #8e509f;}
+td.myprague{background-color: #ea7c8f;}
+
+td{background: #fff;}
+td a{width: 100%;padding: 8px 0;display: block;color: #fff;}
+td a:hover, a:active{color: #666;text-decoration: none;}
+
+span.citymove{color: #aaa;}
+span.default{color:#666;}
+h2.myparis, span.myparis{color: #2857a7;}
+h2.mybrussel, span.mybrussel{color: #eebd0d;}
+h2.mylondon, span.mylondon{color: #dd523b;}
+h2.myrome, span.myrome{color: #89ac3d;}
+h2.myflorence, span.myflorence{color: #aac14a;}
+h2.myvenice, span.myvenice{color: #c4c87b;}
+h2.mybudapest, span.mybudapest{color: #33b2ce;}
+h2.myvienna, span.myvienna{color: #8e509f;}
+h2.myprague, span.myprague{color: #ea7c8f;}
+
+h2.myparis{border-bottom: 1px dotted #2875a7;}
+h2.mybrussel{border-bottom: 1px dotted #eebd0d;}
+h2.mylondon{border-bottom: 1px dotted #dd523b;}
+h2.myrome{border-bottom: 1px dotted #89ac3d;}
+h2.myflorence{border-bottom: 1px dotted #aac14a;}
+h2.myvenice{border-bottom: 1px dotted #c4c87b;}
+h2.mybudapest{border-bottom: 1px dotted #33b2ce;}
+h2.myvienna{border-bottom: 1px dotted #8e509f;}
+h2.myprague{border-bottom: 1px dotted #ea7c8f;}
+h2.mydresden{color: #666; border-bottom: 1px dotted #666;}
+
+/* transportation */
+h3.trans{margin-bottom: -10px;}
+h3.trans-det{margin-top: 80px;}
+span.line{color: #ddd;margin: 0 5px;}
+
+.row{margin: 0;padding: 0;}
+.summary {padding: 40px 0 0 0;}
+.summary>i{font-size: 2em;}
+.summary>h2{border-bottom: #666 1px dotted;max-width: 200px;}
+.summary>ul.transport {padding: 0 0 0 15px;}
+
+.details{padding-left: 0px;padding-right: 0px;}
+.details>h2{padding-top: 30px;letter-spacing: 1px;margin: 0;}
+.details>h4{font-size: 1em;font-family: "ubuntu", sans-serif;color: #aaa;margin: 5px 0 3px 0;padding: 0;}
+.details>h4>i{font-size: 0.8em;}

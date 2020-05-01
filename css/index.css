@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+
+body{background: url(../img/index_bg.jpg) center center no-repeat fixed;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;padding-top:0; }
+
+#window{width: 100%;height: 100%;overflow: hidden;}
+
+.navbar-default{background: none;}
+.navbar-default .navbar-text, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus{color: #fff;}
+.navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
+
+/*---- body ----*/
+
+#demo{width: 100%;margin: 50px auto;text-align: center;}
+#demo svg{width: 80%;display: block;margin: auto;}
+
+.btn-wrap{text-align: center;position: relative;margin-top: -200px;}
+.introbtn{background: none;border: #fff solid 2px;padding: 12px 30px 8px 30px;margin: 10px;animation: animbtn 8s ease-in-out;color: #fff;font-family: 'NTR', sans-serif;font-size: 2em;letter-spacing: 4px;}
+.introbtn:hover{background-color: #fff;color: #666;}
+@keyframes animbtn{0%{opacity: 0;} 65%{opacity: 0;} 100%{opacity: 1;}}
+
+@media (max-width: 1200px){
+	.btn-wrap{margin-top:-100px;}
+}
+
+@media screen and (max-width: 960px){
+	#demo svg{width: 100%;}
+}
+
+@media (max-width: 768px){
+	.navbar-collapse{background: rgba(0,0,0,0.7);}
+}
+
+@media screen and (max-width: 640px){
+	#demo {margin-top: 100px;}
+	.btn-wrap{margin-top:0px;}
+}
