@@ -20,6 +20,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 .navbar-default{background: #fff;border:none;}
 .navbar-default p, .navbar-default li {letter-spacing: 2px;font-size: 0.9em;}
 .navbar-default p, .navbar-default .navbar-nav>li>a{line-height: 22px;}
+.navbar-default .navbar-nav,.dropdown-menu{text-align: center;}
 .navbar-default .navbar-nav>li>a:hover{color: #fff;background-color: #FF9F17;}
 .navbar-default .navbar-nav>li.active>a{color:#FF9F17;background: none;}
 .navbar-default .navbar-nav>li.active>a:hover{color:#FF9F17;background: none;}
