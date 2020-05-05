@@ -27,7 +27,7 @@ $(function(){
 	$('.scroll-to-top').on({
 		click:function(e){
 			e.preventDefault();
-			$('html, body').animate({scrollTop: 0}, 150);
+			$('html, body').stop().animate({scrollTop: 0}, 150);
 		}
 	});
 	
